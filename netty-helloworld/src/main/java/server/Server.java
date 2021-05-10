@@ -12,7 +12,7 @@ public final class Server {
     public  static void main(String[] args) throws Exception {
         /**
          * 创建两个EventLoopGroup对象
-         * 关于为什么是两个EventLoopGroup对象，请了解文章NIO系列之Reactro模型
+         * 关于为什么是两个EventLoopGroup对象，请了解文章NIO系列之Reactor模型
          * ref:https://my.oschina.net/u/1859679/blog/1844109
          */
         //创建boss线程组 用于服务端接受客户端的连接
